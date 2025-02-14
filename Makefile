@@ -6,8 +6,8 @@ up:
 down:
 	docker-compose -f docker-compose.yml down
 
-clear:
-	docker volume rm  janitor_local_pgdata
+clean:
+	docker volume rm janitor_local_pgdata
 
 e2e-ci: mt
 	bundle exec cucumber --publish-quiet --tags "not @doing"
