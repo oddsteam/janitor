@@ -14,6 +14,12 @@ To run the app:
 make run
 ```
 
+To start the database:
+
+```bash
+make up
+```
+
 To migrate the database:
 
 ```bash
