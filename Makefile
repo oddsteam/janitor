@@ -7,7 +7,7 @@ down:
 	docker-compose -f docker-compose.yml down
 
 clear:
-	docker volume rm  odds-janitor_local_pgdata
+	docker volume rm  janitor_local_pgdata
 
 e2e-ci: mt
 	bundle exec cucumber --publish-quiet --tags "not @doing"

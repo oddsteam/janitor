@@ -17,7 +17,7 @@ services:
       - .env
 
   web: 
-    image: ghcr.io/oddsteam/odds-janitor:latest
+    image: ghcr.io/oddsteam/janitor:latest
     container_name: janitor_web_rails
     depends_on:
       - db
