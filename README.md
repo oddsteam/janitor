@@ -2,6 +2,20 @@
 
 ## Getting Started
 
+To install gems:
+
 ```bash
-bundle install
+make bundle
+```
+
+To run the app:
+
+```bash
+make run
+```
+
+To migrate the database:
+
+```bash
+make migrate
 ```
