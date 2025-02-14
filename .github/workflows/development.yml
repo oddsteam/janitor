@@ -2,7 +2,7 @@ name: Janitor on Rails Development
 
 on:
   push:
-    branches: ["dev"]
+    branches: ["main"]
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
